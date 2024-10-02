@@ -1,0 +1,64 @@
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.page-title {
+    font-family: "Sofia", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.close-button {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    margin-top: -1em;
+    margin-right: -1em;
+    font-size: 0.8em;
+}
+
+.close-button span {
+    display: inline-block; 
+    background-color: rgba(239, 237, 237, 0.5); 
+    padding: 0.2em 0.5em; 
+    border-radius: 4px;
+}
+
+
+
+h1 {
+    font-size: 1.8em;
+}
+
+h1 a{
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1em;
+    color: gray;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.news-img {
+    max-width: 40%;
+}
+
+.news-img img {
+    width: 100%;
+}
