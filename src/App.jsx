@@ -1,5 +1,5 @@
 import news_feed from './news_stories.json';
-import NewsList from './components/NewsList';
+import Newslist from './components/Newslist';
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='page-title'>Your Own Curated Vancouver Newsfeed</h1>
-      <NewsList stories={stories} />
+      <Newslist stories={stories} />
     </div>
   );
 }

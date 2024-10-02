@@ -1,7 +1,7 @@
 import React from "react";
 import Newscard from "./Newscard"; 
 
-export default function NewsList({ stories }) {
+export default function Newslist({ stories }) {
     return (
         <div>
             {stories.map((newsItem, index) => (
